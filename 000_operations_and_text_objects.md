@@ -44,6 +44,13 @@ def accent(name: String): String = name match {
   case _ => "<unknown>"
 }
 
+def accent(name: String): String = name match {
+  case "thilo" => "german-ish"
+  case "clement" | "fredrick" => "singlish"
+  case "rohan" => "aussie"
+  case "paul" => "yank"
+  case _ => "<unknown>"
+}
 
 ```
 
@@ -60,7 +67,7 @@ Change "fredrick" to "zij" in the function below:
 ```scala
 def accent(name: String): String = name match {
   case "thilo" => "german-ish"
-  case "clement" | "fredrick" => "singlish"
+  case "clement" | "zij" => "singlish"
   case "rohan" => "aussie"
   case "paul" => "yank"
   case _ => "<unknown>"
@@ -83,7 +90,7 @@ Change Thilo's accent from "german-ish" to "austrian-ish" (not "australian-ish")
 
 ```scala
 def accent(name: String): String = name match {
-  case "thilo" => "german-ish"
+  case "thilo" => "austrian-ish"
   case "clement" | "fredrick" => "singlish"
   case "rohan" => "aussie"
   case "paul" => "yank"
