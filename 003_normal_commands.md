@@ -36,9 +36,9 @@ Here it has no blank lines and each command is on a single line which makes it s
 - do `:39,41 normal A;<enter>`
 
 ```java
-AbstractProxyBeanFactoryStrategyBuilder myAbstractProxyBeanFactoryStrategyBuilder = new ConcreteAbstractProxyBeanFactoryStrategyBuilder();
-AbstractProxyBeanFactoryStrategy myAbstractProxyBeanFactoryStrategy = myAbstractProxyBeanFactoryStrategyBuilder.build();
-myAbstractProxyBeanFactoryStrategy.launchStrategy(myStrategyProxyDecisionProviderServiceUtilsWrapper);
+AbstractProxyBeanFactoryStrategyBuilder myAbstractProxyBeanFactoryStrategyBuilder = new ConcreteAbstractProxyBeanFactoryStrategyBuilder()
+AbstractProxyBeanFactoryStrategy myAbstractProxyBeanFactoryStrategy = myAbstractProxyBeanFactoryStrategyBuilder.build()
+myAbstractProxyBeanFactoryStrategy.launchStrategy(myStrategyProxyDecisionProviderServiceUtilsWrapper)
 ```
 
 The command means:
@@ -58,12 +58,12 @@ Someone wrote some python code. Quickly comment it out before it breaks somethin
 - to uncomment it, do `:.,.+5 normal ^x<enter>` from the first line
 
 ```python
-# a = 3
-# b = 10
-# c = 30
-# def foo(d):
-  # return a + b * c - d
-# foo(None)
+a = 3
+b = 10
+c = 30
+def foo(d):
+  return a + b * c - d
+foo(None)
 ```
 
 That weird vim incantation will look strange and confusing.

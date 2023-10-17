@@ -28,11 +28,11 @@ Remove all those titles.
 - carry on deleting the remaining titles in the same way 
 
 ```
-Boban said to his subjects:
+Boban the magnificent said to his subjects:
 
-I am Boban , and I fought many battles as Boban .
+I am Boban the mighty, and I fought many battles as Boban the brave.
 
-Spread the word about the great deeds of Boban .
+Spread the word about the great deeds of Boban the humble.
 ```
 
 ## Exercise 2 - deleting++
@@ -79,8 +79,15 @@ Use this new foo to delete the lines that start with "DELETE ME":
 ```
 Don't delete me!
 Keep me too!
+DELETE ME now!
+DELETE ME do it nowwww!
+DELETE ME forever
 
 Keep this line too.
+DELETE ME or else
+DELETE ME to stay jiving
+DELETE ME before I learn to feel pain
+DELETE ME quick!
 ```
 
 This is why Rohan uses those crazy relative line numbers. It makes it very fast to delete big chunks of code.

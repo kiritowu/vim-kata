@@ -29,7 +29,7 @@ For each word with a "Foo":
 - do `de` (delete to end) (or you could use `.` after the first deletion)
 
 ```
-We want to learnFoo some awesome vimFoo.
+We wantFoo to learnFoo some awesome vimFoo.
 ```
 
 ## Exercise 2
@@ -42,7 +42,7 @@ For each word with a "Boban" prefix:
 - do `db` (delete back) (or use `.` for subsequent deletions)
 
 ```
-Zij said to Lulu that Thilo is a real great guy.
+BobanZij said to BobanLulu that BobanThilo is a real Bobangreat guy.
 ```
 
 ## Exercise 3
@@ -61,11 +61,11 @@ Fix this by copying the text His-Highness-the-Great from the first line and past
 ```
 A letter regarding His-Highness-the-Great Boban to the people.
 
-Your great King His-Highness-the-Great Boban would like you to all to know,
+Your great King Boban would like you to all to know,
 
-that as King His-Highness-the-Great Boban he wishes you all.
+that as King Boban he wishes you all.
 
-This letter is officially sanctioned propaganda from His-Highness-the-Great Boban
+This letter is officially sanctioned propaganda from Boban
 ```
 
 ## Exercise 4
@@ -79,6 +79,8 @@ We want to delete the 2nd and 3rd line:
 
 ```
 Hello there,
+Hello there,
+this is Boban
 this is Boban
 ```
 

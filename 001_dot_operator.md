@@ -32,13 +32,13 @@ We will do the first replacement manually, then use `.` for the subsequent chang
 - move your cursor to the "Wolf" and press `.` (the "Wolf" should change to "Thilo")
 
 ```
-Thilo is our favourite German.
+Wolfgang is our favourite German.
 
-When we need a sassy remark, we go to Thilo.
+When we need a sassy remark, we go to Wolfgang.
 
-Thilo doesn't like PHP.
+Wolfy doesn't like PHP.
 
-Yesterday we saw the Thilo bring his lunch to work, he's very responsible.
+Yesterday we saw the Wolf bring his lunch to work, he's very responsible.
 ```
 
 ## Exercise 2
@@ -58,11 +58,11 @@ But we need to fix it to make it compile:
 
 ```java
 AbstractProxyBeanFactoryStrategyBuilder myAbstractProxyBeanFactoryStrategyBuilder =
-    new ConcreteAbstractProxyBeanFactoryStrategyBuilder();
+    new ConcreteAbstractProxyBeanFactoryStrategyBuilder()
 
-AbstractProxyBeanFactoryStrategy myAbstractProxyBeanFactoryStrategy = myAbstractProxyBeanFactoryStrategyBuilder.build();
+AbstractProxyBeanFactoryStrategy myAbstractProxyBeanFactoryStrategy = myAbstractProxyBeanFactoryStrategyBuilder.build()
 
-myAbstractProxyBeanFactoryStrategy.launchStrategy(myStrategyProxyDecisionProviderServiceUtilsWrapper);
+myAbstractProxyBeanFactoryStrategy.launchStrategy(myStrategyProxyDecisionProviderServiceUtilsWrapper)
 ```
 
 ## Exercise 3
@@ -83,12 +83,12 @@ We will create a change to right indent a line by 2 spaces then apply that chang
 
 ```scala
 def allTheThings(): Unit = {
-  val a = "howdy" // indent 2 spaces
-  if (manyThings) { // indent 2 spaces
-    println("Many things aren't all the things") // indent 4 spaces
-  } // indent 2 spaces
-  else  // indent 2 spaces
-    println("Hopefully this is all the things") // indent 4 spaces
+val a = "howdy" // indent 2 spaces
+if (manyThings) { // indent 2 spaces
+println("Many things aren't all the things") // indent 4 spaces
+} // indent 2 spaces
+else  // indent 2 spaces
+println("Hopefully this is all the things") // indent 4 spaces
 }
 ```
 
@@ -109,9 +109,9 @@ In the text below, upper case all the words like "sad", "huge", "lose" and "fake
 - continue on for other words like "fake" and "Sad"
 
 ```
-I heard on the news that there's so much HUGE fake news now.
+I heard on the news that there's so much huge fake news now.
 
-We will never LOSE, everythign is FAKE. SAD!
+We will never lose, everythign is fake. Sad!
 ```
 
 # Summary
