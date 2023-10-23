@@ -34,17 +34,17 @@ Use filtering to sort the paragraph of names below.
 ```
 
 boban
-joban
 clement
-thilo
-paul
 gagan
-vish
-rohan
-zij
-lulu
-jonathan
 james
+joban
+jonathan
+lulu
+paul
+rohan
+thilo
+vish
+zij
 
 ```
 
@@ -64,20 +64,11 @@ Figure out who they are so we can pick who to fire:
 
 ```
 
-boban
 joban
-clement
-thilo
-paul
-gagan
-vish
-rohan
 zij
-lulu
 jonathan
 james
 joey-jo-jo-junior-shabadoo
-mei
 
 ```
 
@@ -97,7 +88,17 @@ Use filtering and `jq` to prettify it into standard multi-line json.
 
 ```json
 
-{"fire": ["joban", "joey-jo-jo-junior-shabadoo"], "dontFire": ["zij", "james", "jonathan"]}
+{
+  "fire": [
+    "joban",
+    "joey-jo-jo-junior-shabadoo"
+  ],
+  "dontFire": [
+    "zij",
+    "james",
+    "jonathan"
+  ]
+}
 
 ```
 
@@ -113,7 +114,7 @@ We can use python (or any other interpreted language) to quickly do this.
 
 ```
 
-print(42 * 60 - 23)
+2497
 
 ```
 
@@ -144,9 +145,24 @@ If you want to do this yourself:
 
 ```
 
-make
-me
-big!
+                 _        
+ _ __ ___   __ _| | _____ 
+| '_ ` _ \ / _` | |/ / _ \
+| | | | | | (_| |   <  __/
+|_| |_| |_|\__,_|_|\_\___|
+                          
+                
+ _ __ ___   ___ 
+| '_ ` _ \ / _ \
+| | | | | |  __/
+|_| |_| |_|\___|
+                
+ _     _       _ 
+| |__ (_) __ _| |
+| '_ \| |/ _` | |
+| |_) | | (_| |_|
+|_.__/|_|\__, (_)
+         |___/   
 
 ```
 

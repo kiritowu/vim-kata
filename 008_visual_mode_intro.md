@@ -78,10 +78,10 @@ Upper case all the sql keywords in the query below: (that is everything except "
 - do `gU` to uppercase the selection
 
 ```sql
-select *
-from leads
-order by 'timestamp' desc
-limit 30
+SELECT *
+FROM leads
+ORDER BY 'timestamp' DESC
+LIMIT 30
 ```
 
 ## Exercise 3 - changing stuff
@@ -95,7 +95,7 @@ Replace the text inside the quotes with "Boban":
 - do `Boban<escape>`
 
 ```
-And our favourite Albanian is: "Enxhell the trainer of machines"
+And our favourite Albanian is: "Boban"
 ```
 
 ## Exercise 4 - using text objects
@@ -142,7 +142,7 @@ Replace he who shouldn't be named with just 'x' characters in the snippet below:
 - move your cursor to anywhere in the next "Voldemort" and repeat above
 
 ```
-And then I was like "Voldemort"? Who the bloomin' heck is "Voldemort"? Blimey...
+And then I was like "xxxxxxxxx"? Who the bloomin' heck is "xxxxxxxxx"? Blimey...
 ```
 
 # Summary

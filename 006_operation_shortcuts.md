@@ -34,11 +34,21 @@ Remember these guys? They're one line inputs so we can use `!!` to execute them:
 - do `!!python`
 
 ```json
-{"fire": ["joban", "joey-jo-jo-junior-shabadoo"], "dontFire": ["zij", "james", "jonathan"]}
+{
+  "fire": [
+    "joban",
+    "joey-jo-jo-junior-shabadoo"
+  ],
+  "dontFire": [
+    "zij",
+    "james",
+    "jonathan"
+  ]
+}
 ```
 
 ```python
-print(42 * 60 - 23)
+2497
 ```
 
 ## Exercise 2
@@ -57,8 +67,11 @@ Duplicate each of the lines below.
 
 ```
 Line 1
+Line 1
+Line 2
 Line 2
 Line 3
+Line 2
 ```
 
 ## Exercise 3
@@ -78,9 +91,7 @@ and crop the lines with "Boban" in the middle by removing from "Boban" to the ri
 - do `D`
 
 ```
-Boban is supreme
 We ate a super supreme. Boban did too.
-Boban is python
 We saw a python eat someone. Boban is gone.
 ```
 
